@@ -11,7 +11,7 @@
                     <div class="card-body">
                         <h4 class="card-title text-info"><strong> Seguro de vida </strong></h4>
                         <p class="card-text">
-                        Porque sabemos lo importante que eres para todos los tuyos...
+                            Porque sabemos lo importante que eres para todos los tuyos...
                         </p>
                         <a href="https://web.segurosfalabella.com/co/seguros-de-vida/con-devolucion/" class="btn btn-success" target="_blank">Ver más</a>
                     </div>
@@ -25,7 +25,7 @@
                     <div class="card-body">
                         <h4 class="card-title text-info"><strong> Seguro de vehículo </strong></h4>
                         <p class="card-text">
-                        Porque sabemos que tu patrimonio y tus bienes son valiosos...
+                            Porque sabemos que tu patrimonio y tus bienes son valiosos...
                         </p>
                         <a href="https://auto.segurosfalabella.com.co/todo-riesgo/chat-lia" class="btn btn-success" target="_blank">Ver más</a>
                     </div>
@@ -39,7 +39,7 @@
                     <div class="card-body">
                         <h4 class="card-title text-info"><strong> Seguro de desempleo </strong></h4>
                         <p class="card-text">
-                        Porque sabemos que no estás exento(a) de algún imprevisto laboral...
+                            Porque sabemos que no estás exento(a) de algún imprevisto laboral...
                         </p>
                         <a href="https://web.segurosfalabella.com/co/otros-seguros/seguro-de-desempleo/" class="btn btn-success" target="_blank">Ver más</a>
                     </div>
