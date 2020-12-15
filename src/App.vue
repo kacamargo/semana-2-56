@@ -7,7 +7,6 @@
 
 <script>
 import ServicesSection from './components/ServicesSection.vue'
-import ServicesSection from "./components/ServicesSection.vue"
 export default {
   name: 'App',
   components: {
