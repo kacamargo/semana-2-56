@@ -5,7 +5,7 @@
       <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
         <div class="card">
           <div class="d-flex justify-content-center p-2">
-            <img src="https://www.noticiasensalud.com/wp-content/uploads/2020/04/Un-decalogo-para-cuidarse-en-familia-durante-la-pandemia-de-coronavirus-1.jpg" alt="Seguro de vida" height="150px" />
+            <img src="https://www.noticiasensalud.com/wp-content/uploads/2020/04/Un-decalogo-para-cuidarse-en-familia-durante-la-pandemia-de-coronavirus-1.jpg" alt="Seguro de vida" height="200px" />
           </div>
           <div class="card-body">
             <h4 class="card-title">Seguro de vida</h4>
@@ -19,7 +19,7 @@
       <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
         <div class="card">
           <div class="d-flex justify-content-center p-2">
-            <img src="https://cdn.aarp.net/content/dam/aarp/auto/2017/07/1140-hyundai-ioniq-great-cars-road-trips-esp.imgcache.revfd63981c76a67e8a4ed28622bb76883e.web.700.403.jpg" alt="Seguro de vehículo" height="150px" />
+            <img src="https://cdn.aarp.net/content/dam/aarp/auto/2017/07/1140-hyundai-ioniq-great-cars-road-trips-esp.imgcache.revfd63981c76a67e8a4ed28622bb76883e.web.700.403.jpg" alt="Seguro de vehículo" height="200px" />
           </div>
           <div class="card-body">
             <h4 class="card-title">Seguro de vehículo</h4>
@@ -33,7 +33,7 @@
       <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
         <div class="card">
           <div class="d-flex justify-content-center p-2">
-            <img src="https://inspecciontecnicadeestanterias.com/wp-content/uploads/2019/05/Obligaciones-del-empresario-y-del-trabajador-en-materia-de-seguridad-en-el-almacen.jpg" alt="Seguro de desempleo" height="150px" />
+            <img src="https://inspecciontecnicadeestanterias.com/wp-content/uploads/2019/05/Obligaciones-del-empresario-y-del-trabajador-en-materia-de-seguridad-en-el-almacen.jpg" alt="Seguro de desempleo" height="200px" />
           </div>
           <div class="card-body">
             <h4 class="card-title">Seguro de desempleo</h4>
