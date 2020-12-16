@@ -4,7 +4,7 @@
     <div>
       <transition-group  name="fade" tag="div">
         <div class="caja" v-for="i in [currentIndex]" :key="i">
-          <img class="sl" :src="currentImg" />
+          <img class="imageside" :src="currentImg" />
           <div class="texto" v-text="currentText"></div>
         </div>
       </transition-group>
@@ -88,11 +88,15 @@ html{
 
 .texto {
   position: absolute;
-  top: 50%;
+  top: 80%;
   left: 10%;
   font-size: 30px;
   color: white;
   text-shadow: 2px 2px 2px #333333;
+}
+
+.imageside{
+    max-height: 100vh;
 }
 
 .fade-enter-active,
@@ -171,8 +175,6 @@ img {
     background-position: center center;
     background-size: cover;
     height: 100vh;
-    min-height: 60rem;
-    max-height: 100vh;
 }
 
 .contenido-header {
