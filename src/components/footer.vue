@@ -21,5 +21,32 @@ export default {
 </script>
 
 <style>
+.site-footer {
+    background-color: #333333;
+    margin: 0;
+    position: absolute;
+}
+
+.seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.contenedor-footer {
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
 
 </style>
