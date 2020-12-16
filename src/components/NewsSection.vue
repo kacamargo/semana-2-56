@@ -4,25 +4,26 @@
       <div class="d-flex col-lg-6 col-xs-12" v-for="noticia in news" :key="noticia.id">
         <div class="shadow p-4 mb-4 bg-white " alt="Contenedor noticias">
           <div class="d-flex justify-content-center align-items-center">
-            <div class="p-3">
+            <div class="p-2" style="width:50%" >
               <img
                 :src="noticia.image"
-                class="img-fluid rounded" max-width="100%"
+                class="img-fluid rounded"
                 alt="Poster noticia"
               />
             </div>
-            <div class="p-2">
+            <div class="p-2" style="width:50%"  >
               <h5 class="text-center">{{ noticia.title }}</h5>
-              <p>{{ noticia.description }}</p>
+              <div class=" mx-auto" style="width: 30%; height: 0.25em; background: #78344c; "></div>
+              <p class="my-2">{{ noticia.description }}</p>
+              <div class="d-flex container-fluid justify-content-end p-2">
+                <a
+                  :href="noticia.source.url"
+                  class="btn btn-outline-info"
+                  target="_blank"
+                  >Ver Noticia</a
+                >
+              </div>
             </div>
-          </div>
-          <div class="d-flex container-fluid justify-content-end pb-2 mt-n2">
-            <a
-              :href="noticia.source.url"
-              class="btn btn-outline-info"
-              target="_blank"
-              >Ver Noticia</a
-            >
           </div>
         </div>
       </div>
