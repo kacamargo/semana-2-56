@@ -39,7 +39,7 @@ data() {
         "https://i.imgur.com/vtHPO89.jpg",
         "https://i.imgur.com/lJBbiBI.jpg",
       ],
-      titles: ["Image 1", "Image 2", "Image 3",],
+      titles: ["Seguro de Vida", "Seguro de Vehículo", "Seguros de Desempleo",],
       timer: null,
       currentIndex: 0,
     };
