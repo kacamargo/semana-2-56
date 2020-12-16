@@ -36,7 +36,7 @@ html{
     margin: 0 auto;
 }
 
-.site-header {
+.site-header{
     background-color: #333333;
     padding: 1rem 0 3rem 0;
 }
