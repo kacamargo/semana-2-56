@@ -80,7 +80,7 @@ p {
     font-size: 1.2rem;
 }
 
-.site-footer {
+/*.site-footer {
     background-color: #333333;
     margin: 0;
     position: absolute;
@@ -106,6 +106,6 @@ p {
     text-decoration: none;
     font-size: 1.8rem;
     margin-right: 2rem;
-}
+}*/
 
 </style>
