@@ -1,47 +1,58 @@
 <template> 
   <!-- services -->
-  <div class="container-fluid">
-        <h1 id="services"><center><strong> Nuestros servicios </strong></center></h1>
+  <div class="container-fluid" id="services">
+        <h6 class="display-2 text-center" >Nuestros Servicios</h6>
         <div class="row justify-content-center mb-5">
-            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
-                <div class="card bg-light border border-info">
-                    <div class="d-flex justify-content-center p-2">
-                        <img style="border: 1px solid; color: #17A2BB" src="https://www.noticiasensalud.com/wp-content/uploads/2020/04/Un-decalogo-para-cuidarse-en-familia-durante-la-pandemia-de-coronavirus-1.jpg" alt="Seguro de vida" height="200px" width="350px"/>
+            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5 d-flex" >
+                <div class="card border" style="background: #00334d">
+                    <div class="d-flex justify-content-center mt-5">
+                        <img class="img-fluid" src="https://images.unsplash.com/photo-1606787365321-53019dba74d8?ixid=MXwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"/>
                     </div>
-                    <div class="card-body">
-                        <h4 class="card-title text-info"><strong> Seguro de vida </strong></h4>
-                        <p class="card-text">
-                            Porque sabemos lo importante que eres para todos los tuyos...
-                        </p>
-                        <a href="https://web.segurosfalabella.com/co/seguros-de-vida/con-devolucion/" class="btn btn-success" target="_blank">Ver más</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
-                <div class="card bg-light border border-info">
-                    <div class="d-flex justify-content-center p-2">
-                        <img style="border: 1px solid; color: #17A2BB" src="https://cdn.aarp.net/content/dam/aarp/auto/2017/07/1140-hyundai-ioniq-great-cars-road-trips-esp.imgcache.revfd63981c76a67e8a4ed28622bb76883e.web.700.403.jpg" alt="Seguro de vehículo" height="200px" width="350px"/>
-                    </div>
-                    <div class="card-body">
-                        <h4 class="card-title text-info"><strong> Seguro de vehículo </strong></h4>
-                        <p class="card-text">
-                            Porque sabemos que tu patrimonio y tus bienes son valiosos...
-                        </p>
-                        <a href="https://auto.segurosfalabella.com.co/todo-riesgo/chat-lia" class="btn btn-success" target="_blank">Ver más</a>
+
+                    <div class="card text-right" style="background: #00334d">      
+                        <div class="card-body">
+                            <p class="card-title text-center h2 my-4" style="color: #ffffff"><strong> Seguro de vida </strong></p>
+                            <p class="card-text text-center" style="color: #ffffff">
+                                Porque sabemos lo importante que eres para todos los tuyos...
+                            </p>
+                            <a href="https://web.segurosfalabella.com/co/seguros-de-vida/con-devolucion/" class="btn btn-outline-light" target="_blank">>Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5">
-                <div class="card bg-light border border-info">
-                    <div class="d-flex justify-content-center p-2">
-                        <img style="border: 1px solid; color: #17A2BB" src="https://inspecciontecnicadeestanterias.com/wp-content/uploads/2019/05/Obligaciones-del-empresario-y-del-trabajador-en-materia-de-seguridad-en-el-almacen.jpg" alt="Seguro de desempleo" height="200px" width="350px"/>
+
+            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5 d-flex" >
+                <div class="card border" style="background: #005580">
+                    <div class="d-flex justify-content-center align-items-center mt-5">
+                        <img class="img-fluid" src="https://images.unsplash.com/photo-1549927681-0b673b8243ab?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Seguro de vida"/>
                     </div>
-                    <div class="card-body">
-                        <h4 class="card-title text-info"><strong> Seguro de desempleo </strong></h4>
-                        <p class="card-text">
-                            Porque sabemos que no estás exento(a) de algún imprevisto laboral...
-                        </p>
-                        <a href="https://web.segurosfalabella.com/co/otros-seguros/seguro-de-desempleo/" class="btn btn-success" target="_blank">Ver más</a>
+
+                    <div class="card text-right" style="background: #005580">      
+                        <div class="card-body">
+                            <p class="card-title text-center h2 my-4" style="color: #ffffff"><strong> Seguro de vehículo </strong></p>
+                            <p class="card-text text-center" style="color: #ffffff">
+                                Porque sabemos que tu patrimonio y tus bienes son valiosos...
+                            </p>
+                            <a href="https://web.segurosfalabella.com/co/seguros-de-vida/con-devolucion/" class="btn btn-outline-light" target="_blank">>Ver más</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-xs-12 col-lg-4 mt-5 d-flex" >
+                <div class="card border" style="background: #0077b3">
+                    <div class="d-flex justify-content-center mt-5">
+                        <img class="img-fluid" src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80"/>
+                    </div>
+
+                    <div class="card text-right" style="background: #0077b3">      
+                        <div class="card-body">
+                            <p class="card-title text-center h2 my-4" style="color: #ffffff"><strong> Seguro de desempleo </strong></p>
+                            <p class="card-text text-center" style="color: #ffffff">
+                                Porque sabemos que no estás exento(a) de algún imprevisto laboral...
+                            </p>
+                            <a href="https://web.segurosfalabella.com/co/seguros-de-vida/con-devolucion/" class="btn btn-outline-light" target="_blank">>Ver más</a>
+                        </div>
                     </div>
                 </div>
             </div>
