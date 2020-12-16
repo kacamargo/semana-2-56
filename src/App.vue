@@ -4,7 +4,7 @@
 <div class="container-fluid">
   <h6 class="display-2 text-center" style="font-family: 'Roboto', sans-serif;">Conoce Nuestro Equipo</h6>
   <p class="text-muted text-center lead mb-0">¡Creemos sinceramente que la tecnología tiene un potencial casi ilimitado para cambiar nuestro mundo!</p>
-    <div class="row justify-content-center mb-5 d-flex">
+    <div class="row justify-content-center mb-5">
       <div class="col-md mt-4 d-flex justify-content-around" v-for="(item, index) of member" :key="index"> 
         <team-card v-bind:member="item"></team-card>
 
@@ -46,7 +46,7 @@ data(){
       {
         codigo: 3,
         nombre: "",
-        descripcion: "'Ninguno de nosotros es tan inteligente como todos nosotros' - Ken Blanchard",
+        descripcion: ">>'Ninguno de nosotros es tan inteligente como todos nosotros' - Ken Blanchard >>'De la conducta de cada uno depende el destino de todos' - Alejandro Magno.",
         rol:"",
         imagen:"https://imgur.com/6dUC1Ub.jpg",
       },
