@@ -37,7 +37,7 @@
                 <hr class="clearfix w-100 d-md-none pb-3">
 
                 <!-- Grid column -->
-                <div class="members col-md-6 mb-md-0 mb-3">
+                <div class="col-md-6 mb-md-0 mb-3">
 
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold">Equipo de trabajo</h5>
@@ -72,11 +72,11 @@ export default {
 
 <style>
 
-.members h5 {
+h5 {
     font-size: 1.5rem;
 }
 
-.members p {
+p {
     font-size: 1.2rem;
 }
 
