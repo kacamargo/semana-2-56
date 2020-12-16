@@ -37,15 +37,14 @@
                 <hr class="clearfix w-100 d-md-none pb-3">
 
                 <!-- Grid column -->
-                <div class="col-md-6 mb-md-0 mb-3">
+                <div class="members col-md-6 mb-md-0 mb-3">
 
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold">Equipo de trabajo</h5>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio deserunt fuga perferendis modi
-                        earum commodi
-                        aperiam temporibus quod nulla nesciunt aliquid debitis ullam omnis quos ipsam, aspernatur id
-                        excepturi
-                        hic.</p>
+                    <p>Karen Julieth Camargo Flórez - Arquitecto de Software - Kjcamargo19@gmail.com</p>
+                    <p>Manuel José Hernández Rivas - Desarrollador BackEnd - manuel_hzr@outlook.com</p>
+                    <p>Alex David Ospina Gonzalez - Desarrollador BackEnd - ganjalex64@hotmail.com</p>
+                    <p>Julio Cesar Cuervo Diaz  - Desarrollador FrontEnd - Ing.cuervodiaz@gmail.com</p>
 
                 </div>
                 <!-- Grid column -->
@@ -72,6 +71,15 @@ export default {
 </script>
 
 <style>
+
+.members h5 {
+    font-size: 1.5rem;
+}
+
+.members p {
+    font-size: 1.2rem;
+}
+
 .site-footer {
     background-color: #333333;
     margin: 0;
