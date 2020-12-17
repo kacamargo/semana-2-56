@@ -1,6 +1,6 @@
 <template> 
   <!-- services -->
-  <div class="container-fluid" id="services">
+  <div class="container-fluid">
         <div class="row justify-content-center mb-5">
             <div class="col-sm-6 col-xs-12 col-lg-4 mt-5 d-flex" >
                 <div class="card border" style="background: #00334d">

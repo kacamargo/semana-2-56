@@ -5,7 +5,7 @@
         <div class="caja" v-for="i in [currentIndex]" :key="i">
           <img class="imageside" :src="currentImg" alt="Imagen2"/>
           <div class="texto" v-text="currentTittle"></div>
-          <div class="bodyImage" v-text="currentBody"></div>
+          <div class="bodyImage mt-4" v-text="currentBody"></div>
           <div></div>
         </div>
       </transition-group>
@@ -86,29 +86,29 @@ export default {
 <style>
 html {
   box-sizing: border-box;
-  font-size: 62.5%; /** Reset para REMS -62.5% -10px de 16px **/
+ 
 }
 
 .caja {
   position: relative;
-  height: max-content;
+  height: 70vh;
 }
 
 .texto {
   position: absolute;
-  top: 70%;
+  top: 60%;
   left: 10%;
-  font-size: 5rem;
+  font-size: 4rem;
   color: white;
   text-shadow: 2px 2px 2px #333333;
 }
 
 .bodyImage {
   position: absolute;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   max-width: 175vh;
   left: 10%;
-  top: 80%;
+  top: 70%;
   color: white;
   text-shadow: 2px 2px 2px #333333;
 }
@@ -186,7 +186,7 @@ img {
 .site-header.inicio {
   background-position: center center;
   background-size: cover;
-  height: 100vh;
+  height: 70vh;
 }
 
 .contenido-header {
