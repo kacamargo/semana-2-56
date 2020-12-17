@@ -68,9 +68,9 @@ data(){
       },
       {
         codigo: 3,
-        nombre: "",
+        nombre: "team 56 utp",
         descripcion: ">>'Ninguno de nosotros es tan inteligente como todos nosotros' - Ken Blanchard >>'De la conducta de cada uno depende el destino de todos' - Alejandro Magno.",
-        rol:"",
+        rol:"trabajo en equipo",
         imagen:"https://imgur.com/6dUC1Ub.jpg",
       },
       {

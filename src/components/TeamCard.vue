@@ -10,7 +10,7 @@
             <p class="card-text text-center h6 py-2" style=""><small>{{ member.descripcion }}</small></p>
         </div>
         <div class=" text-center text-uppercase" style="background:#78344c;">
-            <p class= " m-3 small" style="color: #ffffff;" >{{ member.rol}}</p>
+            <p class= " m-3 small" style="color: #ffffff;" >{{member.codigo}} <span>.</span>{{ member.rol}}</p>
         </div>
     </div>
 </template>
