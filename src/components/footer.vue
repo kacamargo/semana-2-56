@@ -30,6 +30,7 @@
                         commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum
                         esse fugiat.
                         Itaque, culpa?</p>
+                    <a href="https://github.com/kacamargo/semana-2-56.git">GitHub</a>
 
                 </div>
                 <!-- Grid column -->
@@ -72,12 +73,26 @@ export default {
 
 <style>
 
-h5 {
+h5, a {
     font-size: 1.5rem;
 }
 
 p {
-    font-size: 1.2rem;
+    font-size: 1,3rem;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  margin-right: 2rem;
+}
+
+a:hover{
+    color: #333333;
+}
+
+a:last-of-type {
+  margin: 0;
 }
 
 /*.site-footer {
