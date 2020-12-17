@@ -1,21 +1,26 @@
 <template>
   <div id="app">
+    
+    <!-- Seccion servicios -->
+    <h6 class="display-2 text-center" >Nuestros Servicios</h6>
     <services-section> </services-section>
+
+    <!-- Seccion noticias -->
     <div class="jumbotron jumbotron-fluid py-3" style="background: #f1f2f3">
       <h6 class="display-2 text-center">Noticias</h6>
       <p class="text-muted text-center lead m-0">En esta sección podrás encontrar las noticias más relevantes del sector seguros...</p>
-      <div class="container-fluid">
+      <div class="container-fluid" id="noticias">
         <news-section></news-section>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <!-- Seccion Team -->
+    <div class="container-fluid" id="equipo">
       <h6 class="display-2 text-center" style="font-family: 'Roboto', sans-serif;">Conoce Nuestro Equipo</h6>
       <p class="text-muted text-center lead mb-0">¡Creemos sinceramente que la tecnología tiene un potencial casi ilimitado para cambiar nuestro mundo!</p>
         <div class="row justify-content-center mb-5">
           <div class="col-md mt-4 d-flex justify-content-around" v-for="(item, index) of member" :key="index"> 
             <team-card v-bind:member="item"></team-card>
-
           </div>
         </div>
     </div>
@@ -34,7 +39,7 @@ export default {
   components: {
   ServicesSection,
   NewsSection,
-    TeamCard,
+  TeamCard,
   },
 data(){
   return{
