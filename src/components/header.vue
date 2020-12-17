@@ -18,8 +18,8 @@
           <nav class="navegacion">
             <a href="#">Inicio</a>
             <a href="#services">Servicios</a>
-            <a href="#noticias">Noticias</a>
-            <a href="#equipo">Equipo</a>
+            <a href="#news">Noticias</a>
+            <a href="#team">Equipo</a>
           </nav>
         </div>
       </div>
