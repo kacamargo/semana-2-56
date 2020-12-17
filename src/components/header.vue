@@ -2,7 +2,7 @@
   <header class="site-header inicio">
     <!-- contenedor-->
     <div>
-      <transition-group  name="fade" tag="div">
+      <transition-group name="fade" tag="div">
         <div class="caja" v-for="i in [currentIndex]" :key="i">
           <img class="imageside" :src="currentImg" />
           <div class="texto" v-text="currentTittle"></div>
@@ -12,40 +12,41 @@
       </transition-group>
 
       <div class="contenedor contenido-header">
-          <div class="barra">
-            <a href="#"> <img src="../assets/logoHeader.svg" alt="Logotipo alpha"> </a>
-            <nav class="navegacion">
-              <a href="#">Inicio</a>
-              <a href="#">Servicios</a>
-              <a href="#">Noticias</a>
-              <a href="#">Equipo</a>
-            </nav>
-          </div>
+        <div class="barra">
+          <a href="#">
+            <img src="../assets/logoHeader.svg" alt="Logotipo alpha" />
+          </a>
+          <nav class="navegacion">
+            <a href="#">Inicio</a>
+            <a href="#">Servicios</a>
+            <a href="#">Noticias</a>
+            <a href="#">Equipo</a>
+          </nav>
         </div>
+      </div>
 
       <a class="prev" @click="prev" href="#">&#10094;</a>
       <a class="next" @click="next" href="#">&#10095;</a>
     </div>
   </header>
-
 </template>
 
 <script>
 export default {
   name: "cabecera",
 
-data() {
+  data() {
     return {
       images: [
         "https://i.imgur.com/27nlDg0.jpg",
         "https://i.imgur.com/vtHPO89.jpg",
         "https://i.imgur.com/lJBbiBI.jpg",
       ],
-      titles: ["Seguro de Vida", "Seguro de Vehículo", "Seguro de Desempleo",],
+      titles: ["Seguro de Vida", "Seguro de Vehículo", "Seguro de Desempleo"],
       body: [
         "Seguros Alpha, pensando en tu seguridad, te brinda un seguro integral de vida, el cual te permite disfrutar de tus momentos, sin preocuparte por los imprevistos.",
         "Nuestra compañía piensa en ti y asegura el camino por el que decides tomar, ofreciéndote un completo seguro de vehículos. Aplica para todo vehículo y para todas tus necesidades como conductor(a).",
-        "Tu futuro laboral también es una prioridad para nosotros, así que nuestro portafolio cuenta con un seguro de desempleo para motivarte a seguir adelante, mientras encuentras un mejor empleo"
+        "Tu futuro laboral también es una prioridad para nosotros, así que nuestro portafolio cuenta con un seguro de desempleo para motivarte a seguir adelante, mientras encuentras un mejor empleo",
       ],
       timer: null,
       currentIndex: 0,
@@ -80,15 +81,13 @@ data() {
       return this.body[Math.abs(this.currentIndex) % this.images.length];
     },
   },
-
 };
 </script>
 
 <style>
-
-html{
-    box-sizing: border-box;
-    font-size: 62.5%; /** Reset para REMS -62.5% -10px de 16px **/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /** Reset para REMS -62.5% -10px de 16px **/
 }
 
 .caja {
@@ -115,8 +114,8 @@ html{
   text-shadow: 2px 2px 2px #333333;
 }
 
-.imageside{
-    max-height: 100vh;
+.imageside {
+  max-height: 100vh;
 }
 
 .fade-enter-active,
@@ -173,8 +172,6 @@ img {
   background-color: rgba(0, 0, 0, 0.9);
 }
 
-
-
 .contenedor {
   min-width: 80%;
   margin: 0 auto;
@@ -189,12 +186,11 @@ img {
   position: relative;
 }
 
-
-.site-header.inicio{
-    /*background-image: url(../assets/header1.jpg);*/
-    background-position: center center;
-    background-size: cover;
-    height: 100vh;
+.site-header.inicio {
+  /*background-image: url(../assets/header1.jpg);*/
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
 }
 
 .contenido-header {
@@ -211,7 +207,6 @@ img {
   line-height: 2;
 }
 
-
 .barra {
   display: flex;
   justify-content: space-between;
@@ -220,8 +215,6 @@ img {
   align-items: flex-end;
   text-shadow: 3px 3px 3px #333333;
 }
-
-
 
 /* Navegacion */
 .navegacion a {
