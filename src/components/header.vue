@@ -5,7 +5,9 @@
       <transition-group  name="fade" tag="div">
         <div class="caja" v-for="i in [currentIndex]" :key="i">
           <img class="imageside" :src="currentImg" />
-          <div class="texto" v-text="currentText"></div>
+          <div class="texto" v-text="currentTittle"></div>
+          <div class="bodyImage" v-text="currentBody"></div>
+          <div></div>
         </div>
       </transition-group>
 
@@ -39,7 +41,12 @@ data() {
         "https://i.imgur.com/vtHPO89.jpg",
         "https://i.imgur.com/lJBbiBI.jpg",
       ],
-      titles: ["Seguro de Vida", "Seguro de Vehículo", "Seguros de Desempleo",],
+      titles: ["Seguro de Vida", "Seguro de Vehículo", "Seguro de Desempleo",],
+      body: [
+        "Seguros Alpha, pensando en tu seguridad, te brinda un seguro integral de vida, el cual te permite disfrutar de tus momentos, sin preocuparte por los imprevistos.",
+        "Nuestra compañía piensa en ti y asegura el camino por el que decides tomar, ofreciéndote un completo seguro de vehículos. Aplica para todo vehículo y para todas tus necesidades como conductor(a).",
+        "Tu futuro laboral también es una prioridad para nosotros, así que nuestro portafolio cuenta con un seguro de desempleo para motivarte a seguir adelante, mientras encuentras un mejor empleo"
+      ],
       timer: null,
       currentIndex: 0,
     };
@@ -66,8 +73,11 @@ data() {
     currentImg: function () {
       return this.images[Math.abs(this.currentIndex) % this.images.length];
     },
-    currentText: function () {
+    currentTittle: function () {
       return this.titles[Math.abs(this.currentIndex) % this.images.length];
+    },
+    currentBody: function () {
+      return this.body[Math.abs(this.currentIndex) % this.images.length];
     },
   },
 
@@ -88,9 +98,19 @@ html{
 
 .texto {
   position: absolute;
-  top: 80%;
+  top: 70%;
   left: 10%;
-  font-size: 30px;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 2px #333333;
+}
+
+.bodyImage {
+  position: absolute;
+  font-size: 2.5rem;
+  max-width: 175vh;
+  left: 10%;
+  top: 80%;
   color: white;
   text-shadow: 2px 2px 2px #333333;
 }
