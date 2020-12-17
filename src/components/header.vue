@@ -1,6 +1,5 @@
 <template>
   <header class="site-header inicio">
-    <!-- contenedor-->
     <div>
       <transition-group name="fade" tag="div">
         <div class="caja" v-for="i in [currentIndex]" :key="i">
@@ -157,7 +156,6 @@ img {
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0;
 }
@@ -166,7 +164,6 @@ img {
   left: 0;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: rgba(0, 0, 0, 0.9);
@@ -187,7 +184,6 @@ img {
 }
 
 .site-header.inicio {
-  /*background-image: url(../assets/header1.jpg);*/
   background-position: center center;
   background-size: cover;
   height: 100vh;
