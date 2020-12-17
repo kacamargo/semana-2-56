@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <cabecera> </cabecera>
     
     <!-- Seccion servicios -->
     <h6 class="display-2 text-center" >Nuestros Servicios</h6>
@@ -25,21 +26,26 @@
         </div>
     </div>
 
-  </div>
-  
+    <pie></pie>
+  </div> 
 </template>
 
 <script>
+import cabecera from './components/header.vue'
 import NewsSection from './components/NewsSection.vue'
 import ServicesSection from './components/ServicesSection.vue'
 import TeamCard from './components/TeamCard.vue' 
+import pie from './components/footer'
+
 
 export default {
   name: 'App',
   components: {
+  cabecera,
   ServicesSection,
   NewsSection,
   TeamCard,
+  pie
   },
 data(){
   return{
@@ -87,6 +93,7 @@ data(){
   }
 }
 }
+
 </script>
 
 <style scoped>
