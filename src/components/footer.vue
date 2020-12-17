@@ -25,11 +25,11 @@
 
                     <!-- Content -->
                     <h5 class="text-uppercase font-weight-bold">Acerda de</h5>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita sapiente sint, nulla, nihil
-                        repudiandae
-                        commodi voluptatibus corrupti animi sequi aliquid magnam debitis, maxime quam recusandae harum
-                        esse fugiat.
-                        Itaque, culpa?</p>
+                    <p>Desarrollado por TEAM 56 UTP. Somos una compañía de desarrollo web encaminada a la innovación en la presentación y servicios de páginas WEB.</p>
+                    <p>Dirección principal: Avenida Siempre Viva # 123, Bogotá, Colombia.</p>
+                    <p>Teléfono: (1)987-6543</p>
+                    <p>Celular: (+57)3987654321</p>
+
                     <a href="https://github.com/kacamargo/semana-2-56.git">GitHub</a>
 
                 </div>
