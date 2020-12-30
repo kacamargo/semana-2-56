@@ -1,4 +1,5 @@
-# pryecto_sprint2
+# Proyecto_sprint2
+Sitio web con secciones de Menu y Banner,servicios, noticias, grupo de trabajo y pie de página. Haciendo uso de componentes reutilizables de VUE y trayendo información de una API de noticias.
 
 ## Project setup
 ```
